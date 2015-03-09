@@ -174,7 +174,7 @@
 #    Defaults to false
 #
 #  [*session_timeout*]
-#    (optional) Horizon session timout. Defaults to 7200
+#    (optional) Horizon session timout. Defaults to 1800
 # === Deprecation notes
 #
 # If any value is provided for keystone_scheme, keystone_host, or
