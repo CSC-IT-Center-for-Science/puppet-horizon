@@ -184,6 +184,8 @@ class horizon(
   $horizon_app_links       = false,
   $keystone_url            = 'http://127.0.0.1:5000/v2.0',
   $keystone_default_role   = '_member_',
+  $keystone_api_version    = undef,
+  $keystone_multidomain    = false,
   $django_debug            = 'False',
   $openstack_endpoint_type = undef,
   $secondary_endpoint_type = undef,
